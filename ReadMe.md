@@ -29,14 +29,14 @@
 3. Allows typing commands in last line of window
 4. Current directory visible even during command mode.
 5. If first key pressed is q, exits.
-6. Can perform following commands for given actions:-
-	-> Copy - 'copy sourcepath(s) destpath': Copies all files/directories referred to in sourcepath(s) to destpath.
-	-> Move - 'move sourcepath(s) destpath': Moves all files/directories referred to in sourcepath(s) to destpath.
-	-> Rename - 'rename foo.txt bar.txt': Renames foo.txt to bar.txt in current directory.
-	-> Create file - 'create_file filename destpath': Creates file 'filename' in existing location 'destpath'
-	-> Create folder - 'create_dir dirname destpath': Creates directory 'dirname' in existing location 'destpath'
-	-> Goto - 'goto somepath': Changes current working directory to somepath and updates screen
-	-> Search - 'search filename' or 'search dirname': Returns true or false depending on whether the file or directory exists. Prints accordingly to screen.
+6. Can perform following commands for given actions:- <br />
+	-> Copy - `copy sourcepath(s) destpath`: Copies all files/directories referred to in sourcepath(s) to destpath. <br />
+	-> Move - `move sourcepath(s) destpath`: Moves all files/directories referred to in sourcepath(s) to destpath. <br />
+	-> Rename - `rename foo.txt bar.txt`: Renames foo.txt to bar.txt in current directory. <br />
+	-> Create file - `create_file filename destpath`: Creates file 'filename' in existing location 'destpath'. <br />
+	-> Create folder - `create_dir dirname destpath`: Creates directory 'dirname' in existing location 'destpath'. <br />
+	-> Goto - `goto somepath`: Changes current working directory to somepath and updates screen. <br />
+	-> Search - `search filename` or `search dirname`: Returns true or false depending on whether the file or directory exists. Prints accordingly to screen. <br />
 7. All above paths and names can allow spaces if enclosed within single quotes
 
 ### Display
